@@ -8,7 +8,5 @@ $(document).ready(function() {
         return text;
     }
 
-    setInterval(function() {
-        $('pre').get(0).innerHTML = transformText($('pre').get(0).innerHTML);
-    }, 200);
+    $('pre').get(0).innerHTML = transformText($('pre').get(0).innerHTML);
 });
